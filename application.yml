@@ -1,0 +1,15 @@
+
+
+ml.required.samples: 5
+
+learning-service:
+  ribbon:
+    listOfServers: ${DOCKER_HOST_IP:localhost}:8083
+
+collector-service:
+  ribbon:
+    listOfServers: ${DOCKER_HOST_IP:localhost}:8082
+
+validator-service:
+  ribbon:
+    listOfServers: ${DOCKER_HOST_IP:localhost}:8081
