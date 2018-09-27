@@ -1,4 +1,4 @@
-spring
+spring:
   jpa:
     properties:
       hibernate:
@@ -12,3 +12,7 @@ spring
       settings:
         trace: false
         web-allow-others: false
+
+logging.level:
+  org.springframework.security: DEBUG
+  org.springframework.web: DEBUG
