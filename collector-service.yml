@@ -1,2 +1,4 @@
 server:
   port: 8082
+
+ml.required.samples: 5

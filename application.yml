@@ -29,7 +29,3 @@ collector-service:
 validator-service:
   ribbon:
     listOfServers: ${DOCKER_HOST_IP:localhost}:8081
-
-
-
-ml.required.samples: 5
